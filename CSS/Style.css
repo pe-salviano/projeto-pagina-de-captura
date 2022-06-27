@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.conteiner {
+
+    max-width: 1000px;
+    margin: auto;
+}
+
+header {
+    color: white;
+    background-image: linear-gradient(to right, rgb(1, 8, 13), rgb(34, 42, 156));
+    text-align: center;
+    padding: 5px;
+}
+
+.title {
+    font-size: 26px;
+
+}
+
+section {
+    padding: 50px;
+    background-image: url(../Imagens/imagem.principal.jpg);
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+.formconteiner {
+
+    max-width: 300px;
+    background-color: #ffffffbb;
+    padding: 30px;
+    float: right;
+    border-radius:10px;
+}
+
+h2 {
+    font-size: 20px;
+    padding: 0 0 10px;
+    width: 300px;
+
+}
+
+.mb {
+    margin-bottom: 15px;
+    font-size: 20px;
+    
+}
+
+input,select {
+
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    color: white;
+    background-color: darkcyan;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+input[type="submit"]:hover{
+    background-color: red;
+    cursor:grabbing;
+    
+}
+
+select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url(../Imagens/Seta_baixo.jpg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
+
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.fotopedro{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    filter: opacity(70%);
+}
+
+.descrição{
+    display: inline-block;
+    text-align: left;
+    color: white;
+    max-width: 40%;
+    margin-left: 40px;
+
+
+}
+
+.descrição p, .descrição h3{
+    margin-bottom: 20px;
+  
+}
+.descrição h3{
+    font-size: 30px;
+    
+}
+
+.link-e-mail{
+
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    
+}
+
+.link-e-mail:hover{
+    text-decoration: underline;   
+}
+
+
+ 
+ 
+    
+
